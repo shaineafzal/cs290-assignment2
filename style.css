@@ -1,0 +1,40 @@
+table{
+  border-collapse: collapse;	
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+tbody > tr > th{
+  font-style: italic;
+  font-weight: normal;
+}
+
+tbody > tr > td:nth-child(2){
+  color: red;
+}
+
+tbody > tr > td:nth-child(4){
+  color: blue;
+}
+
+tbody > tr:nth-child(1){
+  background: lightgreen;
+}
+
+tbody > tr:nth-child(3){
+  background: lightgreen;
+}
+
+tbody > tr:nth-child(5){
+  background: lightgreen;
+}
+
+tbody > tr:nth-child(2){
+  background: lightblue;
+}
+
+tbody > tr:nth-child(4){
+  background: lightblue;
+}
