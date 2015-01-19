@@ -19,23 +19,11 @@ tbody > tr > td:nth-child(4){
   color: blue;
 }
 
-tbody > tr:nth-child(1){
+tbody > tr:nth-child(odd){
   background: lightgreen;
 }
 
-tbody > tr:nth-child(3){
-  background: lightgreen;
-}
-
-tbody > tr:nth-child(5){
-  background: lightgreen;
-}
-
-tbody > tr:nth-child(2){
-  background: lightblue;
-}
-
-tbody > tr:nth-child(4){
+tbody > tr:nth-child(even){
   background: lightblue;
 }
 
@@ -43,3 +31,21 @@ dt:hover + dd{
  background:purple;   
 }
 
+div.outer-content{
+  margin-top: 20px;	
+  position: absolute;
+  left: 0px;
+  width: 75%;
+  height: 40px;
+  background: pink;
+}	
+
+div.inner-content{
+  position: relative;
+  margin-left:12.5%;
+  margin-right:12.5%;
+  top: 25%;
+  background: blue;
+  text-align: center;
+  color: white;
+}	
