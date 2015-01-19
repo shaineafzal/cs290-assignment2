@@ -38,3 +38,8 @@ tbody > tr:nth-child(2){
 tbody > tr:nth-child(4){
   background: lightblue;
 }
+
+dt:hover + dd{
+ background:purple;   
+}
+
